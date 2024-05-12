@@ -52,8 +52,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
         <SheetContent side="left">
           <nav class="grid gap-6 text-lg font-medium">
             <a href="#" class="flex items-center gap-2 text-lg font-semibold">
-              <Package2 class="h-6 w-6" />
-              <span class="sr-only">Acme Inc</span>
+              Logo
             </a>
             <NuxtLink
               v-for="(link, index) in navigationLinks"
